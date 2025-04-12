@@ -12,10 +12,6 @@ Puts your focus back on content with clean tabs, removed clutter, and subtle UI 
 - 🧊 Minimalist, modern, distraction-free look
 - 🧱 Compatible with vertical sidebar (auto-resizing)
 
-## 📸 Preview
-
-> _Coming soon_ — feel free to add screenshots here!
-
 ## 🛠️ Installation
 
 ### 1. Enable `userChrome.css` support in Firefox
@@ -50,6 +46,8 @@ Just close and re-open Firefox — your new UI should be active!
 
 ## 🧪 Development
 This is an evolving minimalist UI. Feel free to fork, tweak, or contribute!
+
+# This is my first go using custom css, if there's so many bug, feel free to contribute or create any issue :)
 
 ---
 
