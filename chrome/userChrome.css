@@ -1,0 +1,103 @@
+/* ======================== REMOVE TOOLBAR BORDERS ========================= */
+#navigator-toolbox {
+  border: none !important;
+  display: flex !important;
+  flex-direction: column-reverse !important;
+}
+
+#toolbar-menubar,
+#TabsToolbar {
+  border: none !important;
+}
+
+/* ======================== MOVE TABS TO THE BOTTOM ========================= */
+#TabsToolbar {
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ======================== TAB STYLE ========================= */
+.tabbrowser-tab {
+  display: flex !important;
+  align-items: center !important;
+  height: 32px !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  line-height: normal !important;
+}
+
+/* ======================== TAB CONTENT FIX (CENTERING) ========================= */
+.tabbrowser-tab .tab-content {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 100% !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* ======================== DISPLAY FAVICON - ACTIVE TAB ========================= */
+.tabbrowser-tab[selected="true"] .tab-icon-image {
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  align-self: center !important;
+}
+
+/* ======================== DISPLAY FAVICON - NON-ACTIVE TABS ========================= */
+.tabbrowser-tab .tab-icon-image {
+  display: inline-block !important;
+  width: 16px !important;
+  height: 16px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  align-self: center !important;
+}
+
+/* ======================== CLOSE BUTTON ON HOVER ========================= */
+.tabbrowser-tab .tab-close-button {
+  display: none !important;
+}
+
+.tabbrowser-tab:hover .tab-close-button {
+  display: block !important;
+  opacity: 0.8 !important;
+  transition: opacity 0.2s ease !important;
+}
+
+/* ======================== REMOVE BOOKMARK TOOLBAR ========================= */
+#PersonalToolbar {
+  display: none !important;
+}
+
+/* ======================== HIDE TITLEBAR ========================= */
+#titlebar {
+  display: none !important;
+}
+
+/* ======================== ADDING CUSTOM SPACING ========================= */
+#nav-bar {
+  margin-bottom: 2px !important;
+}
+
+/* ======================== REMOVE STATUSBAR AND EXTRA TOOLBARS ========================= */
+#status-bar {
+  display: none !important;
+}
+
+#toolbar-items {
+  padding: 0 !important;
+}
+
+/* ======================== REMOVE SIDEBAR BUTTON ========================= */
+#sidebar-button {
+  display: none !important;
+}
